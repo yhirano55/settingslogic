@@ -15,7 +15,11 @@ our apps, maybe you will enjoy it too.  Settingslogic works with Rails, Sinatra,
 
 == Installation
 
-  gem install settingslogic
+  gem "settinglogic"
+
+Optionally, you can run the generator, which will set up a Settings model with some useful defaults for you:
+
+  rails g settings:install
 
 == Usage
 
